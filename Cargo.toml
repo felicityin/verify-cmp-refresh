@@ -1,0 +1,13 @@
+[package]
+name = "derive-key"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bip32 = "0.5"
+rand_core = { version = "0.6", features = ["std"] }
+hmac = "0.12"
+sha2 = "0.10"
+k256 = "0.13"
